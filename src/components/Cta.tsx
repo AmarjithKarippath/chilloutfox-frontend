@@ -12,7 +12,7 @@ import { AppStoreButton, GalaxyStoreButton, GooglePlayButton } from "@/component
     {
       name: "Sarah Johnson",
       role: "Software Engineer",
-      content: "This credit card has completely transformed my finances. The analytics feature helped me save over $2,000 last year!",
+      content: 'This credit card has completely transformed my finances. The analytics feature helped me save over $2,000 last year!',
       rating: 5,
       avatar: "SJ"
     },
@@ -27,7 +27,7 @@ import { AppStoreButton, GalaxyStoreButton, GooglePlayButton } from "@/component
     {
       name: "Emily Rodriguez",
       role: "Student",
-      content: "The cashback rewards are unmatched. I've earned over $550 in cashback this year alone. Highly recommend!",
+      content: 'The cashback rewards are unmatched. I have earned over $550 in cashback this year alone. Highly recommend!',
       rating: 5,
       avatar: "ER"
     },
@@ -41,7 +41,7 @@ import { AppStoreButton, GalaxyStoreButton, GooglePlayButton } from "@/component
     {
       name: "David Thompson",
       role: "Travel Blogger",
-      content: "No foreign transaction fees have saved me hundreds while traveling. The global acceptance is truly worldwide.",
+      content: 'No foreign transaction fees have saved me hundreds while traveling. The global acceptance is truly worldwide.',
       rating: 5,
       avatar: "DT"
     },

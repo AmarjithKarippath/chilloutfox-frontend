@@ -34,8 +34,7 @@ export default function Home() {
       <SectionTitle
         // preTitle="Watch a video"
         title="Your First Credit Card? What Every Beginner Should Know"
-      >If you've never had a credit card before, stepping into the world of plastic money can feel like entering a maze of jargon. 
-      In this beginner-friendly guide, Amelia breaks down the essentials for you.
+      >If you never had a credit card before, stepping into the world of plastic money can feel like entering a maze of jargon. In this beginner-friendly guide, Amelia breaks down the essentials for you.
       </SectionTitle>
 
       <Video videoId="-IiCCdhBaC4" />
