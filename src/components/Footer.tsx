@@ -24,7 +24,7 @@ export function Footer() {
                   height="32"
                   className="w-8"
                 />
-                <span>Chillout Fox</span>
+                <span className="text-red-500">Chillout Fox</span>
               </Link>
             </div>
 
