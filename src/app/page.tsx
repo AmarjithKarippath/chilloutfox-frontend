@@ -8,9 +8,18 @@ import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
 
 import { benefitOne, benefitTwo, claimYourself } from "@/components/data";
+
+
+
 export default function Home() {
   return (
+
+
     <Container>
+
+
+
+
       <Hero />
       <SectionTitle
         preTitle="Nextly Benefits"
@@ -36,6 +45,8 @@ export default function Home() {
       <Video videoId="fZ0D0cnR88E" />
 
   <Benefits data={claimYourself} />
+
+
 
       <SectionTitle
         preTitle="Testimonials"
