@@ -115,7 +115,7 @@ export const Cta = () => {
                   </div>
 
                   {/* Content */}
-                  <p className="text-muted-foreground italic">"{testimonial.content}"</p>
+                  <p className="text-muted-foreground italic">{testimonial.content}</p>
 
                   {/* Author */}
                   <div className="flex items-center space-x-3 pt-4 border-t border-border">
