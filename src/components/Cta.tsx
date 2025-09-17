@@ -1,29 +1,41 @@
+"use client";
+
 import React from "react";
 import { Container } from "@/components/Container";
 import { Card, CardContent } from "@/components/ui/card";
 import { Star, Quote } from "lucide-react";
 
+import { AppStoreButton, GalaxyStoreButton, GooglePlayButton } from "@/components/base/buttons/app-store-buttons";
+
   const testimonials = [
     {
       name: "Sarah Johnson",
-      role: "Marketing Director",
+      role: "Software Engineer",
       content: "This credit card has completely transformed how I manage my finances. The analytics feature helped me save over $2,000 last year!",
       rating: 5,
       avatar: "SJ"
     },
     {
       name: "Michael Chen",
-      role: "Software Engineer",
+      role: "Youtuber",
       content: "The mobile app is incredibly intuitive. I love getting instant notifications and the security features give me peace of mind.",
       rating: 5,
       avatar: "MC"
     },
+
     {
       name: "Emily Rodriguez",
-      role: "Small Business Owner",
-      content: "The cashback rewards are unmatched. I've earned over $1,500 in cashback this year alone. Highly recommend!",
+      role: "Student",
+      content: "The cashback rewards are unmatched. I've earned over $550 in cashback this year alone. Highly recommend!",
       rating: 5,
       avatar: "ER"
+    },
+        {
+      name: "Lisa Park",
+      role: "Startup Founder",
+      content: "I recommend this card to all my clients. The financial insights and spending categories are professional-grade.",
+      rating: 5,
+      avatar: "LP"
     },
     {
       name: "David Thompson",
@@ -32,13 +44,7 @@ import { Star, Quote } from "lucide-react";
       rating: 5,
       avatar: "DT"
     },
-    {
-      name: "Lisa Park",
-      role: "Financial Advisor",
-      content: "I recommend this card to all my clients. The financial insights and spending categories are professional-grade.",
-      rating: 5,
-      avatar: "LP"
-    },
+
     {
       name: "James Wilson",
       role: "Entrepreneur",
@@ -63,10 +69,10 @@ export const Cta = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
-            What Our <span className="bg-gradient-primary bg-clip-text text-transparent">Customers</span> Say
+            What Our <span className="bg-gradient-primary text-red-500 bg-clip-text">Users</span> Say
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Join thousands of satisfied customers who have transformed their financial lives
+            Join thousands of satisfied users who have transformed their financial lives
           </p>
       </div>
 
@@ -77,7 +83,7 @@ export const Cta = () => {
           </div>
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-foreground mb-2">500K+</div>
-            <div className="text-muted-foreground">Happy Customers</div>
+            <div className="text-muted-foreground">Happy Users</div>
           </div>
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-foreground mb-2">99.9%</div>
@@ -93,7 +99,7 @@ export const Cta = () => {
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <Card key={index} className="border-0 shadow-card hover:shadow-lg transition-all duration-300">
-              <CardContent className="p-6">
+              <CardContent className="p-8">
                 <div className="space-y-4">
                   {/* Quote Icon */}
                   <div className="w-10 h-10 bg-coral/10 rounded-lg flex items-center justify-center">
@@ -132,13 +138,19 @@ export const Cta = () => {
       <div className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-indigo-600 px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl">
-            Ready to try-out this template?
+            Ready to Transform Your Financial Future?
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-            Don&apos;t let your visitors see a poor landing.
+            Join over 500,000 customers who have already discovered the future of banking. Apply now and get instant approval.
           </p>
         </div>
-        <div className="flex-shrink-0 w-full text-center lg:w-auto">
+
+
+        <div className="flex flex-col items-start gap-3 md:flex-row">
+            <GooglePlayButton size="md"/>
+            <AppStoreButton size="md" />
+        </div>
+        {/* <div className="flex-shrink-0 w-full text-center lg:w-auto">
           <a
             href="https://github.com/web3templates"
             target="_blank"
@@ -147,7 +159,7 @@ export const Cta = () => {
           >
             Download for Free
           </a>
-        </div>
+        </div> */}
       </div>
     </Container>
   );

@@ -13,71 +13,73 @@ import benefitOneImg from "../../public/img/exp_new.jpg";
 import benefitTwoImg from "../../public/img/new_cred1.jpg";
 
 const claimYourself = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Everything you need, all in One Card",
+  desc: "Comprehensive features designed for the modern financial lifestyle.",
   image: claimMe,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "No annual fee & low interest rates",
+      desc: "No hiden fees, 0% APR for 15 months on purchases.",
       icon: <FaceSmileIcon />,
     },
+
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
+      title: "Premium rewards",
+      desc: "2x points on dining, travel, and entertainment purchases. ",
+      icon: <SunIcon />,
     },
-    {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+        {
+      title: "24/7 Support",
+      desc: "Round-the-clock customer service with instant chat and phone support.",
+      icon: <ChartBarSquareIcon />,
     },
   ],
 };
 
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Features that empower you",
+  desc: "Experience banking reimagined with cutting-edge technology and user-centric design.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Mobile-First design",
+      desc: "Manage your finances on-the-go with our award-winning mobile app.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Smart analytics",
+      desc: "AI-powered insights help you understand and optimize your spending patterns.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Global acceptance",
+      desc: "Use your card anywhere in the world with no foreign transaction fees.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Rewards that actually matter",
+  desc: "Every swipe earns you more. Our reward program is designed to maximize your benefits.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
-    },
-    {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "5% Cashback",
+      desc: "Earn 5% cashback on all purchases in your top spending category*.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: "$200 Welcome bonus",
+      desc: "Get $200 bonus after spending $1,000 in first 3 months*.",
+      icon: <DevicePhoneMobileIcon />,
+    },
+
+        {
+      title: "3x Fast credit score building",
+      desc: "Faster credit score building and free credit score monitoring.",
+      icon: <ChartBarSquareIcon />,
     },
   ],
 };

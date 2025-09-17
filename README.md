@@ -6,7 +6,7 @@
  <br>
 </p>
 
-# Nextly - Landing Page Template with Next.js & Tailwind CSS
+# Chillout Fox - Landing Page Template with Next.js & Tailwind CSS
 
 The unconventional card that represent your life style.
  

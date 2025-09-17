@@ -22,12 +22,10 @@ export default function Home() {
 
       <Hero />
       <SectionTitle
-        preTitle="Nextly Benefits"
-        title=" Why should you use this landing page"
+        // preTitle="Chillout Fox Benefits"
+        title="The Credit Card Designed for Your Future"
       >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        Experience the next generation of financial freedom with our premium credit card. Smart spending insights, unbeatable rewards, and security that adapts to your lifestyle.
       </SectionTitle>
 
       <Benefits data={benefitOne} />
@@ -50,7 +48,7 @@ export default function Home() {
 
       <SectionTitle
         preTitle="Testimonials"
-        title="Here's what our customers said"
+        title="Here's what our users said"
       >
         Testimonials is a great way to increase the brand trust and awareness.
         Use this section to highlight your popular customers.
