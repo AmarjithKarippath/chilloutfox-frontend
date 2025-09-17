@@ -3,8 +3,8 @@ import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
 import { Benefits } from "@/components/Benefits";
 import { Video } from "@/components/Video";
-import { Testimonials } from "@/components/Testimonials";
-import { Faq } from "@/components/Faq";
+// import { Testimonials } from "@/components/Testimonials";
+// import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
 
 import { benefitOne, benefitTwo, claimYourself } from "@/components/data";
@@ -23,7 +23,7 @@ export default function Home() {
       <Hero />
       <SectionTitle
         // preTitle="Chillout Fox Benefits"
-        title="The Credit Card Designed for Your Future"
+        title="Everything you need, in One Card"
       >
         Experience the next generation of financial freedom with our premium credit card. Smart spending insights, unbeatable rewards, and security that adapts to your lifestyle.
       </SectionTitle>
@@ -32,21 +32,18 @@ export default function Home() {
       <Benefits imgPos="right" data={benefitTwo} />
 
       <SectionTitle
-        preTitle="Watch a video"
-        title="Learn how to fullfil your needs"
-      >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        // preTitle="Watch a video"
+        title="Your First Credit Card? What Every Beginner Should Know"
+      >If you've never had a credit card before, stepping into the world of plastic money can feel like entering a maze of jargon. 
+      In this beginner-friendly guide, Amelia breaks down the essentials for you.
       </SectionTitle>
 
-      <Video videoId="fZ0D0cnR88E" />
-
+      <Video videoId="-IiCCdhBaC4" />
   <Benefits data={claimYourself} />
 
 
 
-      <SectionTitle
+      {/* <SectionTitle
         preTitle="Testimonials"
         title="Here's what our users said"
       >
@@ -54,14 +51,16 @@ export default function Home() {
         Use this section to highlight your popular customers.
       </SectionTitle>
 
-      <Testimonials />
+      <Testimonials /> */}
 
-      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
+      {/* <SectionTitle 
+        // preTitle="FAQ" 
+        title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
-      </SectionTitle>
+      </SectionTitle> */}
 
-      <Faq />
+      {/* <Faq /> */}
       <Cta />
     </Container>
   );

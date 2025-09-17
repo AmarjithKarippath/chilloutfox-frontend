@@ -6,7 +6,7 @@ import { Container } from "@/components/Container";
 import { AppStoreButton, GalaxyStoreButton, GooglePlayButton } from "@/components/base/buttons/app-store-buttons";
 
 
-import heroImg from "../../public/img/kid_new_tc.jpg";
+import heroImg from "../../public/img/kid_l.jpg";
 
 
 
@@ -16,7 +16,7 @@ export const Hero = () => {
       <Container className="flex flex-wrap">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight text-red-600 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
+            <h1 className="text-4xl font-bold leading-snug tracking-tight text-red-500 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
               Chillout Fox !
             </h1>
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">

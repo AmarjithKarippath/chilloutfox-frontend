@@ -4,24 +4,25 @@ import React from "react";
 import { Container } from "@/components/Container";
 import { Card, CardContent } from "@/components/ui/card";
 import { Star, Quote } from "lucide-react";
-
+import { SectionTitle } from "@/components/SectionTitle";
+import { Faq } from "@/components/Faq";
 import { AppStoreButton, GalaxyStoreButton, GooglePlayButton } from "@/components/base/buttons/app-store-buttons";
 
   const testimonials = [
     {
       name: "Sarah Johnson",
       role: "Software Engineer",
-      content: "This credit card has completely transformed how I manage my finances. The analytics feature helped me save over $2,000 last year!",
+      content: "This credit card has completely transformed my finances. The analytics feature helped me save over $2,000 last year!",
       rating: 5,
       avatar: "SJ"
     },
-    {
-      name: "Michael Chen",
-      role: "Youtuber",
-      content: "The mobile app is incredibly intuitive. I love getting instant notifications and the security features give me peace of mind.",
-      rating: 5,
-      avatar: "MC"
-    },
+    // {
+    //   name: "Michael Chen",
+    //   role: "Youtuber",
+    //   content: "The mobile app is incredibly intuitive. I love getting instant notifications and the security features give me peace of mind.",
+    //   rating: 5,
+    //   avatar: "MC"
+    // },
 
     {
       name: "Emily Rodriguez",
@@ -30,13 +31,13 @@ import { AppStoreButton, GalaxyStoreButton, GooglePlayButton } from "@/component
       rating: 5,
       avatar: "ER"
     },
-        {
-      name: "Lisa Park",
-      role: "Startup Founder",
-      content: "I recommend this card to all my clients. The financial insights and spending categories are professional-grade.",
-      rating: 5,
-      avatar: "LP"
-    },
+    //     {
+    //   name: "Lisa Park",
+    //   role: "Startup Founder",
+    //   content: "I recommend this card to all my clients. The financial insights and spending categories are professional-grade.",
+    //   rating: 5,
+    //   avatar: "LP"
+    // },
     {
       name: "David Thompson",
       role: "Travel Blogger",
@@ -45,13 +46,13 @@ import { AppStoreButton, GalaxyStoreButton, GooglePlayButton } from "@/component
       avatar: "DT"
     },
 
-    {
-      name: "James Wilson",
-      role: "Entrepreneur",
-      content: "Customer service is exceptional. They resolved my issue within minutes through the chat feature. Outstanding experience!",
-      rating: 5,
-      avatar: "JW"
-    }
+    // {
+    //   name: "James Wilson",
+    //   role: "Entrepreneur",
+    //   content: "Customer service is exceptional. They resolved my issue within minutes through the chat feature. Outstanding experience!",
+    //   rating: 5,
+    //   avatar: "JW"
+    // }
   ];
 
 
@@ -133,15 +134,21 @@ export const Cta = () => {
         </div>
       </div>
 
-      
+    <SectionTitle 
+      // preTitle="FAQ" 
+      title="Frequently Asked Questions">
+      Answer your customers possible questions here, it will increase the
+      conversion rate as well as support or chat requests.
+    </SectionTitle> 
+    <Faq />
 
-      <div className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-indigo-600 px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
+      <div className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-red-500 px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl">
             Ready to Transform Your Financial Future?
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-            Join over 500,000 customers who have already discovered the future of banking. Apply now and get instant approval.
+            Join over 500,000 customers who have already discovered the future of banking. Apply now in app.
           </p>
         </div>
 

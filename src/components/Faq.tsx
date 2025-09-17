@@ -36,21 +36,21 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "Contactless payments work on this cards?",
+    answer: "Yes, All payment modes are supported by Chillout Fox cards.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Are there any hidden fees?",
+    answer: "No, Chillout Fox card do not charge any annual fee or hidden charges.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "Is it safe to use the this card? ",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Yes, we use bank-grade security not limited to biometric authentication, military grade encryption to protect all your data.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Can I use this card in other countries? ",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Yes, Chillout Fox card can be used anywhere in the world with no foreign transaction fees.",
   },
 ];

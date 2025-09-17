@@ -13,7 +13,7 @@ import benefitOneImg from "../../public/img/exp_new.jpg";
 import benefitTwoImg from "../../public/img/new_cred1.jpg";
 
 const claimYourself = {
-  title: "Everything you need, all in One Card",
+  title : "The Credit Card Designed for Your Future.",
   desc: "Comprehensive features designed for the modern financial lifestyle.",
   image: claimMe,
   bullets: [
